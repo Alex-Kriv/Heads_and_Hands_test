@@ -22,7 +22,7 @@ def function(n):
     return arr
 
 
-n = int(input("Enter n: "))
+n = int(input("Введите количество массивов: "))
 for i in function(n):
     print('\n', 'Массив №', counter, 'после сортировки', i)
     counter += 1
