@@ -15,5 +15,7 @@
 
 ![Пример 2](https://github.com/Alex-Kriv/Heads_and_Hands_test/blob/main/second.JPG)
 
+Минимальные и максимальные значения элемента задаются в коде.
+
 ## Контакты
 Телеграмм: https://t.me/alex_kriv
