@@ -12,7 +12,7 @@ def create_array(lengths_of_arrey, n): # функция создания n ма�
 
 
 def function(n):
-    lengths_of_arrey = random.sample(range(1, n+10), n) # обьвление уникальных длин массивов
+    lengths_of_arrey = random.sample(range(1, n + 10), n) # обьвление уникальных длин массивов, но не более чем n + 10
     arr = create_array(lengths_of_arrey, n)
     for i in range(n): # функция сортировки по возростанию для (ч), убыванию для (н)
         if i % 2 == 0:
@@ -24,5 +24,5 @@ def function(n):
 
 n = int(input("Enter n: "))
 for i in function(n):
-    print('\n','Массив №',counter,'после сортировки',i)
+    print('\n', 'Массив №', counter, 'после сортировки', i)
     counter += 1
